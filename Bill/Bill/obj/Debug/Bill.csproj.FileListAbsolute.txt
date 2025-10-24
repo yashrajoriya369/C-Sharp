@@ -1,0 +1,8 @@
+E:\.Net Framework\Bill\Bill\bin\Debug\Bill.exe.config
+E:\.Net Framework\Bill\Bill\bin\Debug\Bill.exe
+E:\.Net Framework\Bill\Bill\bin\Debug\Bill.pdb
+E:\.Net Framework\Bill\Bill\obj\Debug\Bill.csproj.AssemblyReference.cache
+E:\.Net Framework\Bill\Bill\obj\Debug\Bill.csproj.CoreCompileInputs.cache
+E:\.Net Framework\Bill\Bill\obj\Debug\Bill.exe
+E:\.Net Framework\Bill\Bill\obj\Debug\Bill.pdb
+E:\.Net Framework\Bill\Bill\obj\Debug\Bill.exe.config
