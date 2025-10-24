@@ -71,18 +71,18 @@ namespace Bill
         static void Main(string[] args)
         {
             Customer customer = new Customer();
-            customer.Name = "Rahul Agrawal";
-            customer.Address = "Near ***** ****** ****** Mathura";
+            customer.Name = "Yash Rajoriya";
+            customer.Address = "Near ***** ****** ****** Bharatpur";
             customer.PhoneNumber = "555-1234";
             Seller seller = new Seller();
             seller.Name = "Best Buy";
-            seller.Address = "Dampier Nagar Mathura";
+            seller.Address = "Gopal Garh Bharatpur";
             seller.PhoneNumber = "555-5678";
             Invoice invoice = new Invoice();
             invoice.InvoiceNumber = "INV-1001";
             invoice.OrderId = "ORD-2002";
-            invoice.OrderDate = "2025-08-27";
-            invoice.InvoiceDate = "2025-08-28";
+            invoice.OrderDate = "2025-06-12";
+            invoice.InvoiceDate = "2025-06-13";
             invoice.Buyer = customer;
             invoice.SellerInfo = seller;
             Product product1 = new Product();

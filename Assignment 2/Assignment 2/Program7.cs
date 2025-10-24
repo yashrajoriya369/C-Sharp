@@ -62,7 +62,7 @@ class Program7
         lib.AddBook(b1);
         lib.AddBook(b2);
 
-        Member m1 = new Member() { Name = "Rahul", MemberID = 1 };
+        Member m1 = new Member() { Name = "Yash", MemberID = 1 };
         lib.RegisterMember(m1);
 
         lib.LendBook("C# Basics", m1);

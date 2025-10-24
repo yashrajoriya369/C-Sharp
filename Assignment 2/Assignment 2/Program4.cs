@@ -33,13 +33,13 @@ class Program4
     static void Main()
     {
         FullTimeEmployee fte = new FullTimeEmployee();
-        fte.Name = "Rahul";
+        fte.Name = "Yash";
         fte.Id = 1;
         fte.MonthlySalary = 50000;
         Console.WriteLine($"Full Time Employee Salary: {fte.CalculateSalary()}");
 
         PartTimeEmployee pte = new PartTimeEmployee();
-        pte.Name = "Amit";
+        pte.Name = "Temp";
         pte.Id = 2;
         pte.HourlyRate = 200;
         pte.HoursWorked = 50;

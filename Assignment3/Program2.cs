@@ -15,7 +15,7 @@ namespace Assignment3
         {
             BankAccount account = new BankAccount();
             account.account_number = 123456;
-            account.account_holder_name = "Rahul Agrawal";
+            account.account_holder_name = "Yash Rajoriya";
             account.balance = 1000.0;
             account.DisplayAccountDetails();
             account.Deposit(500.0);
