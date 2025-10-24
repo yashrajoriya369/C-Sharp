@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C587420-4C80-499E-A53D-0923C7924605}</ProjectGuid>
+    <ProjectGuid>{7D1D11BF-56F6-4F03-B75E-3F11AC20CD07}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>My_First_Program</RootNamespace>
-    <AssemblyName>My First Program</AssemblyName>
+    <RootNamespace>Assignment1</RootNamespace>
+    <AssemblyName>Assignment1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Program7</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
