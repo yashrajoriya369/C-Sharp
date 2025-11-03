@@ -1,0 +1,7 @@
+C:\Users\yashr\OneDrive\Desktop\C#\Question2\Question2\bin\Debug\Question2.exe.config
+C:\Users\yashr\OneDrive\Desktop\C#\Question2\Question2\bin\Debug\Question2.exe
+C:\Users\yashr\OneDrive\Desktop\C#\Question2\Question2\bin\Debug\Question2.pdb
+C:\Users\yashr\OneDrive\Desktop\C#\Question2\Question2\obj\Debug\Question2.csproj.AssemblyReference.cache
+C:\Users\yashr\OneDrive\Desktop\C#\Question2\Question2\obj\Debug\Question2.csproj.CoreCompileInputs.cache
+C:\Users\yashr\OneDrive\Desktop\C#\Question2\Question2\obj\Debug\Question2.exe
+C:\Users\yashr\OneDrive\Desktop\C#\Question2\Question2\obj\Debug\Question2.pdb
