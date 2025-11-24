@@ -20,42 +20,36 @@ class LockDeadlock
         Console.WriteLine("Both threads completed.");
     }
 
-    // Thread 1 locks resourceA then tries to lock resourceB
+    
     static void Thread1Work()
     {
         lock (resourceA)
         {
             Console.WriteLine("Thread 1: locked Resource A");
-            Thread.Sleep(5000); // simulate work while holding A
+            Thread.Sleep(5000); 
 
-            // Now tries to lock B — will block if another thread holds B
+            
             lock (resourceB)
             {
                 Console.WriteLine("Thread 1: locked Resource B");
                 Console.WriteLine("Thread 1: working with A and B");
             }
-            // Releases resourceB automatically
         }
-        // Releases resourceA automatically
     }
 
-    // Thread 2 locks resourceB then tries to lock resourceA
 
     static void Thread2Work()
     {
         lock (resourceB)
         {
             Console.WriteLine("Thread 2: locked Resource B");
-            Thread.Sleep(5000); // simulate work while holding B
+            Thread.Sleep(5000); 
 
-            // Now tries to lock A — will block if another thread holds A
             lock (resourceA)
             {
                 Console.WriteLine("Thread 2: locked Resource A");
                 Console.WriteLine("Thread 2: working with B and A");
             }
-            // Releases resourceA automatically
         }
-        // Releases resourceB automatically
     }
 }
