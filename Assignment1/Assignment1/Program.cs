@@ -97,8 +97,8 @@ internal class Assignment_01
 
     static void SearchElement()
     {
-        int[] elements = { 101, 203, 304, 405, 506 };
-        int searchValue = 304;
+        int[] elements = { 131, 20, 34, 452, 525 };
+        int searchValue = 131;
         bool found = false;
         int i = 0;
         foreach (int element in elements)
@@ -123,7 +123,7 @@ internal class Assignment_01
 
     static void SecondLargest()
     {
-        int[] numbers = { 56, 78, 89, 45, 67 };
+        int[] numbers = { 556, 798, 819, 457, 673 };
         int largest = int.MinValue;
         int secondLargest = int.MinValue;
         foreach (int number in numbers)
@@ -143,7 +143,7 @@ internal class Assignment_01
 
     static void RemoveDuplicates()
     {
-        int[] numbers = { 102, 215, 102, 324, 215 };
+        int[] numbers = { 12, 21, 12, 34, 15 };
         int[] uniqueNumbers = new int[numbers.Length];
         int index = 0;
         foreach (int number in numbers)
@@ -172,8 +172,8 @@ internal class Assignment_01
 
     static void CommonElements()
     {
-        int[] dataset1 = { 1, 2, 3, 4, 5 };
-        int[] dataset2 = { 3, 4, 5, 6, 7 };
+        int[] dataset1 = { 5, 2, 1, 4, 5 };
+        int[] dataset2 = { 3, 4, 5, 6, 2 };
 
         Console.Write("Common Elements are: ");
         for (int i = 0; i < dataset1.Length; i++)
@@ -189,4 +189,5 @@ internal class Assignment_01
         Console.WriteLine();
     }
 }
+
 
